@@ -1,0 +1,9 @@
+<resources>
+  <string name="app_name">国际化</string>
+  <string name="system_auto">跟随系统</string>
+  <string name="simplified_chinese">简体中文</string>
+  <string name="traditional_chinese">繁体中文</string>
+  <string name="english">English</string>
+  <string name="current_language_xx">当前语言：%1$s</string>
+  <string name="system_language_xx">系统语言：%1$s</string>
+</resources>

@@ -1,0 +1,9 @@
+<resources>
+  <string name="app_name">Internationalize</string>
+  <string name="system_auto">Auto</string>
+  <string name="simplified_chinese">Simplified Chinese</string>
+  <string name="traditional_chinese">Traditional Chinese</string>
+  <string name="english">English</string>
+  <string name="current_language_xx">Current Language：%1$s</string>
+  <string name="system_language_xx">System Language：%1$s</string>
+</resources>
