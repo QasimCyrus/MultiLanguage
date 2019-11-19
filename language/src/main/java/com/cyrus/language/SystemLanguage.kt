@@ -22,7 +22,7 @@ internal object SystemLanguage : ComponentCallbacks2 {
     }
     private set
 
-    internal fun register(context: Context) {
+    internal fun register(context: Context): Unit {
         context.registerComponentCallbacks(this)
     }
 

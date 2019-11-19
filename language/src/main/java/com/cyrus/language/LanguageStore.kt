@@ -10,9 +10,9 @@ import java.util.*
  */
 interface LanguageStore {
 
-    /** 保存语言 */
-    public fun saveLanguage(context: Context, locale: Locale)
-
     /** 获取语言，[defaultLocale]为获取不到时的默认返回 */
     public fun getLanguage(context: Context, defaultLocale: Locale): Locale
+
+    /** 保存语言 */
+    public fun saveLanguage(context: Context, locale: Locale): Unit
 }
