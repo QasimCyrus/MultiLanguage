@@ -1,4 +1,4 @@
-package com.cyrus.demo
+package com.cyrus.languagedemo
 
 import android.content.Context
 import androidx.appcompat.app.AppCompatActivity

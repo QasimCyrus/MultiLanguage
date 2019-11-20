@@ -1,4 +1,4 @@
-package com.cyrus.demo
+package com.cyrus.languagedemo
 
 import org.junit.Assert.assertEquals
 import org.junit.Test

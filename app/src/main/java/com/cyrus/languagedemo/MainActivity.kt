@@ -1,4 +1,4 @@
-package com.cyrus.demo
+package com.cyrus.languagedemo
 
 import android.content.Intent
 import android.os.Bundle
