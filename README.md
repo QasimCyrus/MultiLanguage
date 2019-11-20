@@ -1,6 +1,13 @@
 # MultiLanguage
 Android 多语言国际化框架
 
+#### 集成
+```gradle
+dependencies {
+    implementation 'com.cyrus:language:1.0'
+}
+```
+
 #### 初始化框架
 在 Applicaiton 中初始化：
 ```kotlin
