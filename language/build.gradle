@@ -1,8 +1,13 @@
 apply plugin: 'com.android.library'
+
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
+
+apply plugin: 'com.novoda.bintray-release'
+
 android {
     compileSdkVersion 29
+
     defaultConfig {
         minSdkVersion 15
         targetSdkVersion 29
@@ -18,6 +23,15 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+}
+
+publish {
+    userOrg = 'qasimcyrus'
+    groupId = 'com.cyrus'
+    artifactId = 'language'
+    publishVersion = '1.0'
+    desc = 'Android Multiple Language'
+    website = 'https://github.com/QasimCyrus/MultiLanguage'
 }
 
 dependencies {
