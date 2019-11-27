@@ -11,7 +11,7 @@ dependencies {
 ```
 
 #### 初始化框架
-在 Applicaiton 中初始化：
+在 Application 中初始化：
 ```kotlin
 override fun onCreate() {
     super.onCreate()
@@ -20,7 +20,7 @@ override fun onCreate() {
 ```
 
 #### 应用配置
-覆写 Applicaiton 中的方法：
+覆写 Application 中的方法：
 ```kotlin
 override fun attachBaseContext(base: Context) {
     super.attachBaseContext(LanguageHelper.onAttach(base))
