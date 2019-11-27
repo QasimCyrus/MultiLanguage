@@ -6,7 +6,7 @@ Android 多语言国际化框架
 #### 集成
 ```gradle
 dependencies {
-    implementation 'com.cyrus:language:1.0'
+    implementation 'com.cyrus:language:1.0.1'
 }
 ```
 
