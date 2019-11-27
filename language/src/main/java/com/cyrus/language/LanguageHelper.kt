@@ -55,6 +55,7 @@ object LanguageHelper {
 
     /** 获取设置的语言，[defaultLocale]为获取不到时的默认返回 */
     @JvmStatic
+    @JvmOverloads
     public fun getLanguage(context: Context, defaultLocale: Locale? = null): Locale {
         return languageStore.getLanguage(context, defaultLocale ?: Locale.getDefault())
     }

@@ -29,7 +29,7 @@ publish {
     userOrg = 'qasimcyrus'
     groupId = 'com.cyrus'
     artifactId = 'language'
-    publishVersion = '1.0'
+    publishVersion = '1.0.1'
     desc = 'Android Multiple Language'
     website = 'https://github.com/QasimCyrus/MultiLanguage'
 }

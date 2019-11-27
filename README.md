@@ -1,5 +1,5 @@
 # MultiLanguage
-[![Download](https://api.bintray.com/packages/qasimcyrus/maven/language/images/download.svg?version=1.0) ](https://bintray.com/qasimcyrus/maven/language/1.0/link)
+[![Download](https://api.bintray.com/packages/qasimcyrus/maven/language/images/download.svg?version=1.0.1) ](https://bintray.com/qasimcyrus/maven/language/1.0.1/link)
 
 Android 多语言国际化框架
 
